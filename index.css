@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #404A65;
+    font-family: "Kanit", sans-serif;
+    color: #ECEDF0;
+}
+
+button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #ECEDF0;
+    background: #1F6FB0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #155a92;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.coin {
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.font-heading {
+    font-size: max(4rem, 64px);
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+
+}
+
+.font-subheading {
+    text-align: center;
+    font-size: max(1.5rem, 24px);
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+
+}
+
+.font-button-text {
+    font-size: max(1.25rem, 20px);
+}
+
+
