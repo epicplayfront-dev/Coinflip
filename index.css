@@ -37,6 +37,10 @@ button:hover {
     margin-top: 30px;
 }
 
+.flipping {
+    animation: flip 1s ease-out;
+}
+
 .font-heading {
     font-size: max(4rem, 64px);
     margin: 0px;
@@ -58,4 +62,8 @@ button:hover {
     font-size: max(1.25rem, 20px);
 }
 
-
+@keyframes flip {
+    0%   { transform: perspective(600px) translateY(0)     rotateX(0deg); }
+    50%  { transform: perspective(600px) translateY(-80px) rotateX(900deg); }
+    100% { transform: perspective(600px) translateY(0)     rotateX(1800deg); }
+}
